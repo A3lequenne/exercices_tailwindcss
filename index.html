@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css" type="text/css">
+    <title>Intro Tailwind</title>
+  </head>
+  <body class="text-center text-sm">
+    <div class=".container max-w-xl mx-auto my-4">
+      <div class="bg-violet-400 border border-black rounded-md">
+        <div class="p-2">12 colonnes</div>
+        <div class="flex">
+          <div class="w-1/12"></div>
+          <div class="w-2/12 p-2 rounded-md border border-black">Coucou</div>
+          <div class="w-2/12"></div>
+          <div class="w-3/12 p-2 rounded-md border border-black">ça</div>
+          <div class="w-2/12"></div>
+          <div class="w-2/12 p-2 rounded-md border border-black">va ?</div>
+        </div>
+      </div>
+    </div>
+    <div class=".container max-w-xl mx-auto my-4 flex">
+      <div class="w-4/12 h-1/4 bg-violet-400 border border-black rounded-md">Nouvel</div>
+      <div class="w-8/12 bg-violet-400 border border-black rounded-md">
+        <b>Exercice</b>
+        <div class="flex">
+          <div class="w-3/12 border border-black rounded-md">salut</div>
+          <div class="w-9/12 border border-black rounded-md">blocs sont tous</div>
+          <div class="w-3/12 border border-black rounded-md">dans</div>
+        </div>
+        <div class="flex">
+          <div class="w-4/12 border border-black rounded-md">la même</div>
+          <div class="w-4/12 border border-black rounded-md">div où est</div>
+          <div class="w-4/12 border border-black rounded-md">inscrit "<b>Exercice</b>".</div>
+        </div>
+        <div class="flex">
+          <div class="w-5/12 border border-black rounded-md">comment</div>
+          <div class="w-2/12 border border-black rounded-md">est</div>
+          <div class="w-5/12 border border-black rounded-md">ce possible ?</div>
+        </div>
+      </div>
+    </div>
+    <div class=".container max-w-xl mx-auto my-4">
+      <div class="bg-violet-400 border border-black rounded-md">
+        <div class="p-2">12 colonnes</div>
+        <div class="flex">
+          <div class="w-1/12"></div>
+          <div class="w-2/12 p-2 rounded-md border border-black">Bloc 1 de 2</div>
+          <div class="w-2/12"></div>
+          <div class="order-3 w-2/12 p-2 rounded-md border border-black">Bloc 2 de 2</div>
+          <div class="order-2 w-2/12"></div>
+          <div class="order-1 w-2/12 p-2 rounded-md border border-black">Bloc 3 de 2</div>
+          <div class="order-3 w-1/12"></div>
+        </div>
+      </div>
+    </div>
+    <div class=".container max-w-xl mx-auto my-4 flex">
+      <div class="w-6/12 bg-violet-400 border border-black rounded-md">
+        <div class="p-2">6 colonnes</div>
+        <div class="flex justify-between">
+          <div class="w-4/12 border border-black rounded-md">4 colonnes</div>
+          <div class="w-4/12 border border-black rounded-md">4 colonnes</div>
+        </div>
+      </div>
+      <div class="w-6/12 bg-violet-400 border border-black rounded-md">
+        <div class="p-2">6 colonnes</div>
+        <div class="flex justify-between">
+          <div class="w-4/12 border border-black rounded-md">4 colonnes</div>
+          <div class="w-8/12 border border-black rounded-md">8 colonnes</div>
+        </div>
+      </div>
+    </div>
+    <div class=".container max-w-sm md:max-w-2xl mx-auto px-2 border border-black">
+      <div class="flex my-2">
+        <div class="w-4/12 md:w-3/12 mx-2 border border-black bg-gray-300">Logo</div>
+        <div class="w-8/12 md:w-9/12 mx-2 border border-black bg-gray-300">Titre</div>
+      </div>
+      <div class="border border-black m-2 bg-gray-300">Hero</div>
+      <div class="md:flex">
+        <div class="md:w-4/12 border border-black m-2 md:my-0 bg-gray-300">Zone 1</div>
+        <div class="md:w-4/12 border border-black m-2 md:my-0 bg-gray-300">Zone 2</div>
+        <div class="md:w-4/12 border border-black m-2 md:my-0 bg-gray-300">Zone 3</div>
+      </div>
+      <div class="flex my-2">
+        <div class="w-8/12 md:w-6/12 mx-2 border border-black bg-gray-300">Titre</div>
+        <div class="w-4/12 md:w-6/12 mx-2 border border-black bg-gray-300">Logo</div>
+      </div>
+      <div class="border border-black m-2 bg-gray-300">Footer</div>
+    </div>
+  </body>
+</html>
