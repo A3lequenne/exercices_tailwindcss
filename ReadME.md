@@ -6,8 +6,8 @@ Few exercices to learn a bit about how TailwindCSS works
 ## Technologies used
 - HTML5
 - CSS3 (with TailwindCSS)
-- LiveServer
+- vite compiler
 
 ## Develop
 - git clone project
-- Run LiveServer extension from VScode
+- npm run dev
